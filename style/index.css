@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 :root {
-    --container-width-lg: 350px;
+    --container-width-lg: 400px;
     --container-width-md: 300px;
     --container-width-sm: 270px;
 }
@@ -54,6 +54,12 @@ article .content .category span{
 }
 article .content h4, h1, p, div:last-child{
     padding: 7.5px 0;
+}
+article .content h1 {
+    font-size: 21px;
+}
+article .content h1:hover {
+    color: hsl(47, 88%, 63%);
 }
 article .content h4 {
     font-size: 14px;
