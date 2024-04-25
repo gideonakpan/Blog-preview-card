@@ -22,8 +22,9 @@ body {
     font-family: "Figtree", sans-serif;
 }
 article {
-    max-width: var(--container-width-lg);
+    max-width: 330px;
     background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
     border-radius: 10px;
     padding: 17px;
     box-shadow: 7px 7px;
@@ -66,7 +67,7 @@ article .content h4 {
     font-weight: 800;
 }
 article .content p {
-    font-size: 16px;
+    font-size: 15px;
     color: hsl(0, 0%, 50%);
 }
 .tutor {
@@ -80,17 +81,6 @@ article .content p {
 footer {
     margin-top: 15px;
 }
-
-
-@media screen and (max-width: 1440px) {
-
-
-    article {
-        max-width: var(--container-width-md);
-    }
-}
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
