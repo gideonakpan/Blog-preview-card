@@ -61,7 +61,7 @@ article .content h1 {
 article .content h1:hover {
     color: hsl(47, 88%, 63%);
 }
-article .content h4 {
+article .content h2 {
     font-size: 14px;
     font-weight: 800;
 }
@@ -76,6 +76,9 @@ article .content p {
 .tutor img {
     width: 30px;
     height: 30px;
+}
+.tutor h2 {
+    padding-top: 5px;
 }
 footer {
     margin-top: 15px;
