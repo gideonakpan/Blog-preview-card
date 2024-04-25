@@ -22,18 +22,17 @@ body {
     font-family: "Figtree", sans-serif;
 }
 article {
-    max-width: 330px;
+    max-width: 350px;
     background: hsl(0, 0%, 100%);
     border: 1px solid hsl(0, 0%, 7%);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 17px;
     box-shadow: 7px 7px;
 }
 article img {
-    height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 article .content {
     padding: 10px 0;
